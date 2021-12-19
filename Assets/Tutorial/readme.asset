@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b970f2d2c2e734337870b9c04dd9ca31, type: 3}
+  m_Name: readme
+  m_EditorClassIdentifier: 
+  Edit: 0
+  icon: {fileID: 2800000, guid: fcd8b7ec2e2384a1fbdbfc922916fd42, type: 3}
+  title: DrowsyFoxDev - Scriptable Objects Crash Course
+  sections:
+  - text: "There are two main prefabs, *Player NEW Modular* and *Player OLD*. \n>
+      The modular one uses <color=aliceblue>Scriptable Objects</color> in order to
+      customize itself. \n\nTo create a new preset, right click in the Project view
+      -> Create -> Create PlayerConfigSO\n> Check out PlayerController to see how
+      the SO is being used.\n\nTo mess around with the life cycle, create and delete
+      `LifeCycleSO` assets. You can experiment with in memory instances by using
+      the button on LifeCycleHolder Game Object to create an in memory one, and then
+      delete it. \n> Note the logs!\n\n** Note: to see changes while in edit mode
+      like in the tutorial, you might need Odin Inspector if it's not installed.
+      Otherwise, the changes for graphics would appear every time you restart the
+      game."
+    heading: Instructions
+    linkText: Watch The Tutorial on YouTube
+    url: drowsyfox.com/youtube
+  - text: 'Check out our game, <color=aliceblue>Break Orbit</color> - link on our
+      website once it''s out! '
+    heading: Break Orbit
+    linkText: DrowsyFox.com
+    url: DrowsyFox.com
+  - text: "Help out by subscribing on youtube \U0001F64F"
+    heading: Youtube
+    linkText: "\U0001F64F@DrowsyFoxDev"
+    url: https://www.youtube.com/drowsyfoxdev
+  - text: 
+    heading: Twitter
+    linkText: "\U0001F64F@DrowsyFoxGames"
+    url: https://twitter.com/drowsyfoxgames
+  requirements:
+  - name: Odin Inspector
+    linkText: Odin Inspector on the Asset Store (Affiliate Link)
+    url: https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041?aid=1101ljmbd
+    reqNamespace: Sirenix.OdinInspector.Editor
+    Symbol: 
+    pass: 1
+  loadedLayout: 1
