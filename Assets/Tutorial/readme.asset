@@ -29,7 +29,7 @@ MonoBehaviour:
       game."
     heading: Instructions
     linkText: Watch The Tutorial on YouTube
-    url: drowsyfox.com/youtube
+    url: https://youtu.be/wJPmpkzQOQI
   - text: 'Check out our game, <color=aliceblue>Break Orbit</color> - link on our
       website once it''s out! '
     heading: Break Orbit
@@ -50,4 +50,4 @@ MonoBehaviour:
     reqNamespace: Sirenix.OdinInspector.Editor
     Symbol: 
     pass: 1
-  loadedLayout: 1
+  loadedLayout: 0
